@@ -14,7 +14,7 @@ env:
   aws_region: ${{ github.event.inputs.region }}
 
 jobs:
-  ec2-instance :
+  ec2-instance:
     runs-on : ubuntu-latest
     steps:
       - uses: actions/checkout@v3

@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "pooja-test-123456"
-    key    = "pooja-backendfile.tfstate"
+    bucket = "nidhi-bucket12"
+    key    = "terraform.tfstate"
     region = "ap-south-1"
   }
 }
