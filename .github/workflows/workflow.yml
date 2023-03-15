@@ -13,7 +13,7 @@ env:
   TFSTATE_FILE: terraform.tfstate
   aws_region: ${{ github.event.inputs.region }}
 
-jobs:
+job:
   ec2-instance :
       runs-on : ubuntu-latest
       steps:
